@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MethodOverload
 {
 	internal class Program
 	{
-		static void Main(string[] args)
+		private static void Main()
 		{
 			EmployeeModel employee1 = new EmployeeModel();
 			EmployeeModel employee2 = new EmployeeModel("Tim", "Corey");
